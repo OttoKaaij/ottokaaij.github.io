@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head>
+	<meta name="generator" content="Hugo 0.125.4"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Otto Kaaij</title>
+
+
+<link rel="stylesheet" href="/assets/combined.min.41ea9bbe80dee45f68b1ca234e800940521c33af282f6c762144be347c8570c1.css" media="all">
+
+
+
+</head>
+
+
+
+
+
+<body class="auto">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+    
+
+    <div class="flex">
+        
+
+        
+    </div>
+
+</div>
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+  </div>
+
+  <footer>
+    
+  </footer>
+
+</body>
+
+
+<script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    console
+    document.body.classList.remove("auto");
+    let cls = "light";
+
+    console.log
+
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+
+  }
+
+  function invert() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    console.log("Setting invert listener");
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invert);
+  }
+
+  setTheme();
+
+</script>
+
+
+</html>
