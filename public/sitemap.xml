@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/act/</loc>
+    <loc>https://ottokaaij.nl/informatica/</loc>
   </url><url>
-    <loc>http://localhost:1313/redirects/act/</loc>
+    <loc>https://ottokaaij.nl/muziek/</loc>
   </url><url>
-    <loc>http://localhost:1313/redirects/rsvp/</loc>
+    <loc>https://ottokaaij.nl/act/</loc>
   </url><url>
-    <loc>http://localhost:1313/rsvp/</loc>
+    <loc>https://ottokaaij.nl/rsvp/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ottokaaij.nl/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ottokaaij.nl/</loc>
   </url><url>
-    <loc>http://localhost:1313/redirects/</loc>
+    <loc>https://ottokaaij.nl/redirects/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ottokaaij.nl/tags/</loc>
   </url>
 </urlset>

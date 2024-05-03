@@ -1,4 +1,26 @@
 baseURL = 'https://ottokaaij.nl/'
-languageCode = 'en-us'
+languageCode = 'nl'
 title = 'Otto Kaaij'
 theme = 'typo'
+
+[params]
+
+theme = 'light'
+
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "informatica"
+url = "/informatica"
+
+[[params.menu]]
+name = "muziek"
+url = "/muziek"
+
+
+[markup]
+[markup.highlight]
+style = 'algol'
