@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Redirects on Otto Kaaij</title>
-    <link>https://ottokaaij.nl/redirects/</link>
+    <link>http://localhost:1313/redirects/</link>
     <description>Recent content in Redirects on Otto Kaaij</description>
     <generator>Hugo</generator>
     <language>nl</language>
-    <atom:link href="https://ottokaaij.nl/redirects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/redirects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://ottokaaij.nl/act/</link>
+      <link>http://localhost:1313/act/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ottokaaij.nl/act/</guid>
+      <guid>http://localhost:1313/act/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://ottokaaij.nl/rsvp/</link>
+      <link>http://localhost:1313/rsvp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ottokaaij.nl/rsvp/</guid>
+      <guid>http://localhost:1313/rsvp/</guid>
       <description></description>
     </item>
   </channel>

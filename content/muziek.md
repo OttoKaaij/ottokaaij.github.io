@@ -2,7 +2,7 @@
 draft = false
 +++
 
-Ik ben dirigent, arrangeur en multi-instrumentalist. Ik dirigeer veel musicalproducties, en wat projectorkesten. Ik sta altijd open voor nieuwe uitdagingen!
+Ik ben dirigent, arrangeur en multi-instrumentalist. Ik dirigeer veel musicalproducties en wat projectorkesten. Ik sta altijd open voor nieuwe uitdagingen!
 
 Mijn hoofdinstrument is viool, en daarnaast speel ik altviool, trompet, piano, basgitaar, en slagwerk.
 
