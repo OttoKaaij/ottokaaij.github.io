@@ -2,37 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Otto Kaaij</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ottokaaij.nl/</link>
     <description>Recent content in Home on Otto Kaaij</description>
     <generator>Hugo</generator>
     <language>nl</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ottokaaij.nl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/informatica/</link>
+      <link>https://ottokaaij.nl/cvbuilder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/informatica/</guid>
+      <guid>https://ottokaaij.nl/cvbuilder/</guid>
+      <description> Experience Education Misc print Tagline Informaticus en Muzikant Over mij Ik ben informaticus en muzikant. Als informaticus ben ik geinteresseerd in sustainable software engineering, algoritmiek en wetenschapscommunicatie. Ik wil probeer bij te dragen aan een beter publiek begrip van de informatica en aan het duurzamere wereld. Ik heb educatieervaring als studentassistent. Als dirigent en als muzikant is mijn werk heel divers: ik werk met verschillende genres, leeftijden en niveaus. Interesses Sustainable Software, Algoritmiek, Muziektheater, Wetenschapscommunicatie Talen Nederlands (moedertaal), Engels (vloeiend), Duits (work in progress) Vaardigheden </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://ottokaaij.nl/informatica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ottokaaij.nl/informatica/</guid>
       <description>Ik ben masterstudent computer science aan de TU Delft. Ik schreef mijn bachelorthesis over het interpreteren van &amp;lsquo;black box&amp;rsquo; modellen van kunstmatige intelligentie.&#xA;In mijn master ben ik gaan specialiseren in duurzame software. Ik werk momenteel aan het schrijven van een thesis daarover onder supervisie van Luis Cruz.&#xA;Studentassistent Ik heb veel gewerkt als studentassistent aan de TU Delft. Ik ontwikkelde het educatieplatform Skill Circuits en assisteerde bij de volgende vakken:</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/muziek/</link>
+      <link>https://ottokaaij.nl/muziek/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/muziek/</guid>
+      <guid>https://ottokaaij.nl/muziek/</guid>
       <description>Ik ben dirigent, arrangeur en multi-instrumentalist. Ik dirigeer veel musicalproducties en wat projectorkesten. Ik sta altijd open voor nieuwe uitdagingen!&#xA;Mijn hoofdinstrument is viool, en daarnaast speel ik altviool, trompet, piano, basgitaar, en slagwerk.&#xA;Projecten als dirigent 2024 School of Rock, Rijswijks Jeugdtheater (recensie) Fame, Rijswijks Jeugdtheater (recensie) Qlass of &amp;lsquo;79 (musical), ASLV Quintus Fideler Fideleaux, Projectorkest Muzikaal chillen, Projectorkest 2023 Wizard of Oz, Rijswijks Jeugdtheater (conductor cam) Zij was ooit van mij, LVVS Augustinus Harvard HaarQlips (musical), ASLV Quintus Fideler Fideleaux, Projectorkest Wonderfeel, Krashna Musika (sfeerimpressie) 2022 Celblok Q (musical), ASLV Quintus Voorbereidend Orkest, VHJO 2021 De Rode Molen (musical), Sorghvliet Gymnasium 2020 Our House, Rijswijks Jeugdtheater 2019 Lustrummusical, Sorghvliet Gymnasium Voorbereidend Orkest, VHJO 2018 In it to win it, Gymnasium Haganum (video) Projecten als muzikant Te veel om op te noemen.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/act/</link>
+      <link>https://ottokaaij.nl/act/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/act/</guid>
+      <guid>https://ottokaaij.nl/act/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/rsvp/</link>
+      <link>https://ottokaaij.nl/rsvp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/rsvp/</guid>
+      <guid>https://ottokaaij.nl/rsvp/</guid>
       <description></description>
     </item>
   </channel>

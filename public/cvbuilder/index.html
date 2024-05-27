@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="nl"
+  dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title> | Otto Kaaij</title>
+
+
+<link rel="stylesheet" href="/assets/combined.min.a6c478742a41d5c244021d7f132bca50bd31c10942b7bb51006f77b71ff33955.css" media="all">
+
+
+</head>
+
+
+
+
+
+
+
+<body class="light">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+    <h1 class="header-title">Otto Kaaij</h1>
+
+    <div class="flex">
+        
+
+        
+        
+
+        <p class="small ">
+            <a href="/">
+                /home
+            </a>
+        </p>
+        
+
+        <p class="small ">
+            <a href="/informatica">
+                /informatica
+            </a>
+        </p>
+        
+
+        <p class="small ">
+            <a href="/muziek">
+                /muziek
+            </a>
+        </p>
+        
+        
+    </div>
+
+</div>
+    </header>
+
+    <main class="main">
+      
+
+
+
+<div >
+  
+  <script> 
+  window.experience = {
+  education: [
+    {
+      tag: "Master",
+      period: "2022 - nu",
+      title: "Computer Science",
+      function: "Master",
+      loc: "TU Delft",
+      description: "Ik verdiep me tijdens de master in mijn voornaamste interesses: sustainable software engineering, algoritmiek, en wetenschapscommunicatie."
+    },
+    {
+      tag: "Bachelor",
+      period: "2017 - 2021",
+      title: "Computer Science and Engineering",
+      function: "Bachelor",
+      loc: "TU Delft",
+      description: "Aan de TU Delft behaalde ik mijn bachelor in Computer Science. In mijn thesis onderzocht ik methoden om ‘zwarte doos’ A.I. modellen uitlegbaar te maken."
+    },
+    {
+      tag: "Muziekles",
+      period: "2022 - nu",
+      title: "Directie en verschillende instrumenten",
+      function: "Privéles",
+      loc: "Verschillende docenten",
+      description: "Hoewel ik zelf voornamelijk autodidact ben, heb ik bij verschillende docenten directielessen gevolgd, om me over specifieke struikelblokken te helpen. Ik speel (alt)viool (hoofdinstrument), piano, basgitaar, trompet en slagwerk, en heb op al die instrumenten in meer of mindere mate les gehad."
+    }
+  ],
+  work: [
+    {
+      tag: "Orkestcom",
+      period: "2020-2021",
+      title: "D.S.M.G. Krashna Musika",
+      function: "Orkestcommisaris",
+      loc: "Delft",
+      description: `Als orkestcommissaris van het Delftse studentenorkest Krashna Musika
+bestuurde ik een jaar lang de vereniging. Mijn verantwoordelijkheden
+waren het organiseren van wekelijkse repetities, concerten, en communi
+catie met de leden. Dit alles in onzekere coronatijden.`
+    },
+    {
+      tag: "TA",
+      period: "2018-2024",
+      title: "TU Delft",
+      function: "Teaching Assistant",
+      loc: "Delft",
+      description: `Ik help studenten bij het ontwikkelen van praktische en theoretische
+vaardigheden in vakken als algoritmiek, software engineering methods en verschillende projectvakken`
+    },
+    {
+      tag: "SkillCircuits",
+      period: "2020-2022",
+      title: "TU Delft",
+      function: "Software Engineer",
+      loc: "Delft",
+      description: `Als software ontwikkelaar werkte ik aan het platform ‘Skill Circuits’, een
+platform waarmee lesmateriaal inzichtelijk gemaakt voor studenten`
+    },
+    {
+      tag: "Musicals",
+      period: "2019-2024",
+      title: "Verschillende Muziektheaterverenigingen",
+      function: "Muzikaal Leider",
+      loc: "Zuid-Holland",
+      description: `Als muzikaal leider help ik amateurmuzikanten en -zangers bij het
+neerzetten van indrukwekkende musicals en muziektheatervoorstellingen. De groepen zijn divers in leeftijd, van middelbare school tot jong volwassenen. `
+    },
+    {
+      tag: "Commissiewerk",
+      period: "2017-2024",
+      title: "D.S.M.G. Krashna Musika",
+      function: "Verschillende Commisies",
+      loc: "Delft",
+      description: `• 2023: verantwoordelijk voor de organisatie en de artistieke interpretatie
+van een grootschalige uitvoering van de Carmina Burana van Carl Orff. <br>• 2020-2022: verantwoordelijk voor het beheer van het instrumentarium
+van krashna.`
+    },
+    {
+      tag: "Fideleaux",
+      period: "2023-2024",
+      title: "Projectorkest 'Fideler Fidelaux'",
+      function: "Dirigent",
+      loc: "Delft",
+      description: `Met mijn beste vrienden organiseer ik een zomers projectorkest. Ik leid het orkest door een gevarieerd repertoire, van Beethoven tot Sonneveld.`
+    },
+    {
+      tag: "MuzikaalChillen",
+      period: "2024",
+      title: "Projectorkest 'Muzikaal Chillen'",
+      function: "Dirigent",
+      loc: "Delft",
+      description: ``
+    },
+    {
+      tag: "VHJO",
+      period: "2019 & 2022",
+      title: "Voorbereidend Orkest - VHJO",
+      function: "Dirigent",
+      loc: "Delft",
+      description: `Bij het Voorbereidend Orkest van de Vereniging Hofstads JeugdOrkest
+dirigeerde ik twee seizoenen als invaller. Met een groep van 30 kinderen tussen de 11 en 14 werkten we naar mooie
+concert toe.`
+    },
+  ]
+};
+
+
+  function printIt() {
+    const frm = document.getElementById("cv");
+    frm.contentWindow.focus();
+    frm.contentWindow.print();
+  }
+
+  async function makeCV() {
+    const cvFrame = document.getElementById("cv");
+    const cvHTML = await makeCVHTML();
+    cvFrame.contentWindow.document.open();
+    cvFrame.contentWindow.document.write(cvHTML);
+    cvFrame.contentWindow.document.close();
+  }
+  async function makeCVHTML() {
+    const css = cvCSS();
+    const bodyStart = '<body>'
+    const header = makeHeader();
+    const content = makeContent();
+    const footer = makeFooter();
+    const bodyEnd = '</body>'
+
+    return "<!DOCTYPE html>" + css + bodyStart + header + content + footer + bodyEnd;
+  }
+
+  function makeHeader() {
+    if (!document.getElementById("Header").checked) {
+      return ""
+    }
+    return `<div class="cvHeader">
+      <h1>Otto Kaaij</h1>
+      <h2 style="margin-bottom: 3mm;" >${document.getElementById("tagline").value}</h2>
+      <div class="bottomBorder"></div>
+      </div>`
+  }
+  function makeContent() {
+    return `<div class="cvContent">` + makeLeft() + makeRight() + `</div>`;
+  }
+  function makeFooter() {
+    const includeFooter = document.getElementById("Contact").checked;
+    if (!includeFooter) return "";
+    return `<div class="cvFooter"> 
+      <div class=topBorder></div>
+      <p> Flemingstraat 9, 2316DC Leiden • +31 6 40387334 • 
+        <a href="mailto:otto.kaaij@gmail.com">otto.kaaij@gmail.com</a> • 
+        <a href="https://ottokaaij.nl" target="_blank" rel="noopener noreferrer">ottokaaij.nl</a> • 
+        <a href="https://linkedin.com/in/otto-kaaij/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
+      </div>`
+  }
+  function makeWork() {
+    const order = Array.from(document.getElementById("work-filter").querySelectorAll("input")).map((e) => e.id);
+    window.experience.work.sort((a, b) => order.indexOf(a.tag) - order.indexOf(b.tag));
+    return window.experience.work.filter((e) => document.getElementById(e.tag).checked).map((e) => makeBlock(e)).join("");
+  }
+  function makeEducation() {
+    const order = Array.from(document.getElementById("ed-filter").querySelectorAll("input")).map((e) => e.id);
+    window.experience.education.sort((a, b) => order.indexOf(a.tag) - order.indexOf(b.tag));
+    return window.experience.education.filter((e) => document.getElementById(e.tag).checked).map((e) => makeBlock(e)).join("");
+  }
+  function makeBlock(content) {
+    const div = 
+    `<div class="block">
+      <div class="blockPeriod">${content.period}</div>
+      <div class="blockBody">
+        <div class="blockTitle">${content.title}</div>
+        <div class="blockDetails">
+          <div class="blockFunction">${content.function}</div>
+          <div> • </div>
+          <div class="blockLoc">${content.loc}</div>
+        </div>
+        <div class="blockDesc">${content.description}</div>
+      </div>
+    </div>`
+    return div
+  }
+  function makeLeft() {
+    const includePic = document.getElementById("Picture").checked;
+    const about = document.getElementById("about").value;
+    const interests = document.getElementById("interests").value.split(", ").join(" • ");
+    const skills = document.getElementById("skills").value.split(", ").join(" • ");
+    const langs = document.getElementById("languages").value.split(", ").join(" • ");
+
+    const out = `<div id="cvLeft">` + 
+      (!includePic ? "" : `<img id="profilePic" src="/imgs/cs.jpg">`) + 
+
+      (about === ""  ? "" : `<h3> Over mij </h3><p>${about}</p>`) + 
+
+      (interests === ""  ? "" : `<h3>Interesses</h3><p>${interests}</p>`) + 
+
+      (skills === ""  ? "" : `<h3>Vaardigheden</h3> <p>${skills}</p>`) + 
+
+      (langs === "" ? "" : ` <h3>Talen</h3> <p>${langs}</p>`) + 
+      `</div>`;
+      return out;
+  }
+  function makeRight() {
+    return `<div id="cvRight">
+      <h2>Ervaring</h2>
+      <div class="bottomBorder"></div>
+      ${makeWork()}
+      <h2>Educatie</h2>
+      <div class="bottomBorder"></div>
+      ${makeEducation()}
+    </div>`
+  }
+  function cvCSS() {
+    return `<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <style> 
+        html {
+          width: 100%;
+          height: 100%;
+          font-size: 10pt;
+        }
+        #profilePic {
+          border-radius: 50%;
+          width: 4cm;
+          margin: 0 auto;
+        }
+        body {
+          print-color-adjust: exact; 
+          padding: 0 0;
+          font-family: "Raleway", sans-serif;
+          font-optical-sizing: auto;
+          margin: 0;
+          padding: 5mm;
+          position: relative;
+          width: 210mm;
+          min-height: 297mm;
+        }
+        .cvHeader {
+          display: flex;
+          justify-content: center; 
+          align-items: center;
+          flex-direction: column;
+          height: 7rem;
+          width: 80vw;
+          margin: auto;
+          margin-bottom: 5mm;
+        }
+        .cvContent {
+          display: flex;
+          width: 100%;
+          gap: 10mm;
+        }
+        .cvFooter {
+          width: 80vw;
+          margin: auto;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -2em;
+        }
+        .cvFooter > p{
+          margin: auto;
+          width: 50vw;
+          text-align: center;
+          font-size: 9pt;
+          font-weight: 160;
+        }
+        #cvLeft {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: left;
+          height: 100vh - 7rem;
+          width: 20rem;
+        }
+        #cvRight {
+          background-color: lightred;
+          margin: 0;
+          width: 100%;
+        }
+        .bottomBorder {
+          width: 100%;
+          height: 1px;
+          background-color: black;
+          margin-bottom: 2mm;
+        }
+        .topBorder {
+          width: 100%;
+          height: 1px;
+          background-color: black;
+          margin-top: 2mm;
+          margin-bottom: 1mm;
+        }
+        .block {
+          display: flex;
+          margin-bottom: 2mm
+        }
+        .blockPeriod {
+          min-width: 6rem;
+        }
+        .blockBody {
+
+        }
+        .blockTitle {
+          font-size: 1.1rem;
+          font-weight: 700;
+        }
+        .blockDetails {
+          font-size: 1.1rem;
+          font-weight: 200;
+          display: flex;
+          flex-direction: row;
+          gap: 0.5rem;
+        }
+        .blockDesc {
+          text-align: justify;
+        }
+        h1 {
+          font-weight: 600;
+          font-style: bold;
+          margin: 0
+        }
+        h2 {
+          font-weight: 400;
+          font-style: normal;
+          margin: 0;
+        }
+        h3 {
+          margin-bottom: 0;
+        }
+        p {
+          margin-top: 0rem;
+          text-align: justify;
+          font-size: 10pt;
+        }
+        #cvLeft p {
+          text-align: left;
+        }
+        a {
+  color: inherit; /* Inherits the color of the parent element */
+  text-decoration: underline; /* Adds an underline */
+  text-decoration-color: currentColor; /* Ensures the underline matches the text color */
+}
+
+a:visited {
+  color: inherit; /* Ensures visited links also inherit the parent color */
+}
+
+a:hover,
+a:focus {
+  color: inherit; /* Ensures hovered and focused links also inherit the parent color */
+  text-decoration: underline; /* Ensures underline remains on hover and focus */
+}
+
+a:active {
+  color: inherit; /* Ensures active links also inherit the parent color */
+  text-decoration: underline; /* Ensures underline remains on active links */
+}
+      </style>
+      </head>`
+  }
+</script>
+
+<style>
+  #cv {
+    width: 223mm;
+    height: 320mm;
+  }
+</style>
+
+<div class="cvbuilder-container">
+  <div class="cvbuilder-column">
+    <div style="display: flex; justify-content: space-around">
+      <div> 
+    <h3>Experience</h3>
+    <div id="work-filter"></div>
+    <h3>Education</h3>
+    <div id="ed-filter"></div>
+    <h3>Misc</h3>
+    <div id="misc-filter"></div>
+    <button class="button" onclick="printIt()"> print</button>
+
+      </div>
+      <div> 
+    <h3>Tagline </h3>
+    <textarea id="tagline" style="min-height: 1rem;" class="cvbuilder-text" placeholder="Type here...">Informaticus en Muzikant</textarea>
+    <h3>Over mij</h3>
+    <textarea id="about" class="cvbuilder-text" placeholder="Type here...">Ik ben informaticus en muzikant. Als informaticus ben ik geinteresseerd in sustainable software engineering, algoritmiek en wetenschapscommunicatie. Ik wil probeer bij te dragen aan een beter publiek begrip van de informatica en aan het duurzamere wereld. Ik heb educatieervaring als studentassistent. Als dirigent en als muzikant is mijn werk heel divers: ik werk met verschillende genres, leeftijden en niveaus.</textarea>
+    <h3>Interesses</h3>
+    <textarea id="interests" class="cvbuilder-text" placeholder="Type here...">Sustainable Software, Algoritmiek, Muziektheater, Wetenschapscommunicatie</textarea>
+    <h3>Talen</h3>
+    <textarea id="languages" class="cvbuilder-text" placeholder="Type here...">Nederlands (moedertaal), Engels (vloeiend), Duits (work in progress)</textarea>
+    <h3>Vaardigheden</h3>
+    <textarea id="skills" class="cvbuilder-text" placeholder="Type here..."></textarea>
+      </div>
+    </div>
+  </div>
+  <div class="cvbuilder-column">
+    <iframe id="cv" onload="makeCV()"></iframe>
+  </div>
+</div>
+
+<script>
+  makeWorkFilter();
+  makeEdFilter();
+  makeMiscFilter();
+  function makeCheckbox(item, checked) {
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.id = item.tag;
+    checkbox.name = item.tag;
+    checkbox.value = item.tag;
+    checkbox.checked = checked;
+    checkbox.addEventListener("change", makeCV)
+
+    // Create a label for the checkbox
+    const label = document.createElement('label');
+    label.htmlFor = item.tag;
+    label.appendChild(document.createTextNode(item.tag));
+
+    // Create a div to wrap the checkbox and label
+    const div = document.createElement('div');
+    div.appendChild(checkbox);
+    div.appendChild(label);
+
+    return div;
+  }
+  function makeWorkFilter() {
+    const container = document.getElementById('work-filter');
+    // Append the div to the container
+    window.experience.work.forEach((item) => {
+      const div = makeCheckbox(item, false);
+      container.appendChild(div);
+    })
+  }
+  function makeEdFilter() {
+    const container = document.getElementById('ed-filter');
+    // Append the div to the container
+    window.experience.education.forEach((item) => {
+      const div = makeCheckbox(item, true);
+      container.appendChild(div);
+    })
+  }
+  function makeMiscFilter() {
+    const container = document.getElementById('misc-filter');
+    // Append the div to the container
+    [{tag: "Picture"}, {tag: "Contact"}, {tag: "Header"}].forEach((item) => {
+      const div = makeCheckbox(item, true);
+      container.appendChild(div);
+    })
+  }
+
+  let textAreaTimeout = null;
+  const delay = 1000; // Delay in milliseconds (1 second)
+
+  document.querySelectorAll("textarea").forEach((e) => e.addEventListener('input', function() {
+      clearTimeout(textAreaTimeout);
+      textAreaTimeout = setTimeout(makeCV, delay);
+  }));
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var container = document.getElementById('work-filter');
+    var sortable = new Sortable(container, {
+      animation: 150,
+      ghostClass: 'sortable-ghost',
+      onEnd: makeCV
+    });
+  });
+  document.addEventListener('DOMContentLoaded', function () {
+    var container = document.getElementById('ed-filter');
+    var sortable = new Sortable(container, {
+      animation: 150,
+      ghostClass: 'sortable-ghost',
+      onEnd: makeCV
+    });
+  });
+</script>
+</div>
+
+
+    </main>
+  </div>
+
+  <footer>
+    
+  </footer>
+
+</body>
+
+
+<script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    console
+    document.body.classList.remove("auto");
+    let cls = "light";
+
+    console.log
+
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+
+  }
+
+  function invert() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    console.log("Setting invert listener");
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invert);
+  }
+
+  setTheme();
+
+</script>
+
+
+</html>
