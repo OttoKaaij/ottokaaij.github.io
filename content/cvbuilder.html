@@ -400,14 +400,17 @@ a:active {
     </div>
   </div>
   <div class="cvbuilder-column">
-    <iframe id="cv" onload="makeCV()"></iframe>
+    <iframe id="cv"></iframe>
   </div>
 </div>
 
 <script>
-  makeWorkFilter();
-  makeEdFilter();
-  makeMiscFilter();
+  function makeFilters() {
+    makeWorkFilter();
+    makeEdFilter();
+    makeMiscFilter();
+    makeCV();
+  }
   function makeCheckbox(item, checked) {
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
@@ -465,6 +468,10 @@ a:active {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
 <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    makeFilters();
+    makeCV();
+  })
   document.addEventListener('DOMContentLoaded', function () {
     var container = document.getElementById('work-filter');
     var sortable = new Sortable(container, {
