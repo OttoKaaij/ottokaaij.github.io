@@ -20,6 +20,10 @@ url = "/informatica"
 name = "muziek"
 url = "/muziek"
 
+[[params.menu]]
+name = "schrijven"
+url = "https://delta.tudelft.nl/otto-kaaij"
+
 
 [markup]
 [markup.highlight]

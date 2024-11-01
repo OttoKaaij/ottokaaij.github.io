@@ -8,6 +8,9 @@ Mijn hoofdinstrument is viool, en daarnaast speel ik altviool, trompet, piano, b
 
 ## Projecten als dirigent
 
+### 2025
+- Legally Blonde, Rijswijks Jeugdtheater
+- MusiQal, ASLV Quintus
 ### 2024
 - School of Rock, Rijswijks Jeugdtheater [(recensie)](https://musicalsites.nl/school-of-rock/)
 - Fame, Rijswijks Jeugdtheater [(recensie)](https://musicalsites.nl/theatergroep-nurt-presenteert-fame-de-musical/)
